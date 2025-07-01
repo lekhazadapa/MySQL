@@ -24,4 +24,3 @@ from employee_demographics
 group by gender
 having a> 40;
 -- Here we assigned 'a' into the arrgigate function 'avg (age)' by using as function and also the name of the column will be changed too
-
