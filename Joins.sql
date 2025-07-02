@@ -78,7 +78,7 @@ inner join employee_salary as sal
 	on dem.employee_id = sal.employee_id
 inner join parks_departments as pd
 	on sal.dept_id = pd.department_id;
--- We can tie join multiple tables even there is no same columns but employee_demographics can tie to employee_salary and employee_salary can tie to parks_department
+-- We can join multiple tables even there is no same columns but employee_demographics can tie to employee_salary and employee_salary can tie to parks_department
 
 
 
